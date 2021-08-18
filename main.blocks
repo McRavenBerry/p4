@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=":O@47I(vME$)y6aomK.[">mySprite</variable><variable type="KIND_SpriteKind" id="}gJ`_^/?x}k-2Zt2?MIG">Player</variable><variable type="KIND_SpriteKind" id="FZz,6*UiU,djJLc9U]$U">Projectile</variable><variable type="KIND_SpriteKind" id=";G%uRwQ9}0[#J]PMtk.D">Food</variable><variable type="KIND_SpriteKind" id="8:4pPuklF}yl3*42mG#L">Enemy</variable></variables><block type="pxt-on-start" id="H*LT=6oY3`#p15tAgH#3" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Hl?O]p71?s^|/)XSTuN/"><field name="VAR" id=":O@47I(vME$)y6aomK.[">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="G#l3GA9;z?X|mBm,!_W9"><value name="img"><shadow type="screen_image_picker" id="L=WOT3[`}y4ma~at@G97"><field name="img">img`
+. . . . . . . . c c c c . . . . 
+. . . . . . c c d d d d c . . . 
+. . . . . c c c c c c d c . . . 
+. . . . c c 4 4 4 4 d c c . c c 
+. . . c 4 d 4 4 4 4 4 1 c c 4 c 
+. . c 4 4 4 1 4 4 4 4 d 1 c 4 f 
+. c 4 4 4 4 1 4 4 4 4 4 1 4 4 f 
+f 4 4 4 4 4 1 1 c f 4 4 1 f 4 f 
+f 4 4 4 f 4 1 c 4 f 4 4 1 f 4 f 
+f 4 4 4 4 4 1 4 4 f 4 4 d f f f 
+. f 4 4 4 4 1 c c 4 4 d f f . . 
+. . f f 4 d 4 4 4 4 4 c f . . . 
+. . . . f f 4 4 4 4 c d b c . . 
+. . . . . . f f f f d d d c . . 
+. . . . . . . . . . c c c . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"L=WOT3[`}y4ma~at@G97"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="No5LLvi)87m[`5{;D#YM"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="E`+n%Xq,socT6?fz_(#Y"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="(1}+BN*n_po:TIh6-q@="><field name="VAR" id=":O@47I(vME$)y6aomK.[">mySprite</field></block></value><next><block type="gamesetbackgroundcolor" id="Y49X8IDEGf%;|Q3Dxi52"><value name="color"><shadow type="colorindexpicker" id="$KnsnJV}~FVdMqRpE$YQ"><field name="index">8</field></shadow></value><next><block type="playMelody" id="f~0_.lKT5vhjr2ZI4)R:"><value name="melody"><shadow type="melody_editor" id="_:{#2mWMUn}.!Pj;v2^g"><field name="melody">"- C G - A - E C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="muI^#PySi4#R.C2USL}@"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
